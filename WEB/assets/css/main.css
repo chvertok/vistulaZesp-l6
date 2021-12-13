@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
+    margin-top: 15px;
     margin-bottom: 25px;
 }
 
@@ -150,6 +151,32 @@ a:after {
 	color: #fff;
     padding: 3px;
 
+}
+
+#cars
+{
+	margin-left: 13%;
+}
+
+input[type=text] 
+{
+  padding:10px;
+  margin:1% 0;
+  border-radius:10px;
+  border: 2px solid #eee;
+  transition: .3s border-color;
+  outline:none;
+  background-color: #131313;
+  color: #f0af4d;
+}
+
+input:hover
+{
+	border: 3px solid #f0af4d;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   color: #f0af4d;
 }
 
 #f p {
